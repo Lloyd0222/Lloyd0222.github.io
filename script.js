@@ -10,15 +10,15 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-  // メニューアイコン動作
-  const menuIcon = document.querySelector(".menu-icon");
-  const menuBar = document.querySelector(".menu-bar");
+    // メニューアイコン動作
+    const menuContainer = document.querySelector(".menu-container");
+    const menuBar = document.querySelector(".menu-bar");
 
-  menuIcon.addEventListener("mouseenter", function () {
-    menuBar.style.display = "flex";
-  });
+    menuContainer.addEventListener("mouseenter", function () {
+        menuBar.style.display = "flex";
+    });
 
-  menuContainer.addEventListener("mouseleave", function () {
-    menuBar.style.display = "none";
-  });
+    menuContainer.addEventListener("mouseleave", function () {
+        menuBar.style.display = "none";
+    });
 });
