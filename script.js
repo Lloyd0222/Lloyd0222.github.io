@@ -17,14 +17,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     menuIcon.addEventListener("click", function(event) {
         event.stopPropagation(); // クリックイベントが親要素に伝播するのを防ぐ
-        const isVisible = menuBar.style.display === "flex";
-        menuBar.style.display = isVisible ? "none" : "flex";
+        menuBar.classList.toggle("open");
     });
 
     // メニュー外をクリックしたら閉じる
     document.addEventListener("click", function(event) {
         if (!menuContainer.contains(event.target)) {
-            menuBar.style.display = "none";
+            menuBar.classList.remove("open");
         }
     });
 });
