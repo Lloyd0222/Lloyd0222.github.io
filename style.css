@@ -4,7 +4,7 @@ body {
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
-  background: url('TOP_Japan.png') no-repeat center center fixed;
+  background: url('images/TOP_Japan.png') no-repeat center center fixed;
   background-size: cover;
 }
 .container {
