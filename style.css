@@ -4,9 +4,8 @@ body {
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
-  background: url('images/TOP_Japan.png') no-repeat center center fixed;
+  background: url('images/TOP.png') no-repeat center center fixed;
   background-size: cover;
-  background-attachment: scroll;
 }
 .container {
   background: rgba(255, 255, 255, 0.8);
