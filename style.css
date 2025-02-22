@@ -35,6 +35,12 @@ body {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
+
+/* メニューが開いた状態 */
+.menu-bar.open {
+  display: flex;
+}
+
 .menu-bar a {
   padding: 10px;
   text-decoration: none;
