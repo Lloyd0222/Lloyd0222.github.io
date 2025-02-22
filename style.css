@@ -5,7 +5,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
   background: url('images/TOP_Japan.png') no-repeat center center fixed;
-  background-size: contain;
+  background-size: 70% 70%;
 }
 .container {
   background: rgba(255, 255, 255, 0.8);
