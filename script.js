@@ -10,15 +10,21 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // メニューアイコン動作
+    // メニュー開閉動作
     const menuContainer = document.querySelector(".menu-container");
+    const menuIcon = document.querySelector(".menu-icon");
     const menuBar = document.querySelector(".menu-bar");
 
-    menuContainer.addEventListener("mouseenter", function () {
-        menuBar.style.display = "flex";
+    menuIcon.addEventListener("click", function(event) {
+        event.stopPropagation(); // クリックイベントが親要素に伝播するのを防ぐ
+        const isVisible = menuBar.style.display === "flex";
+        menuBar.style.display = isVisible ? "none" : "flex";
     });
 
-    menuContainer.addEventListener("mouseleave", function () {
-        menuBar.style.display = "none";
+    // メニュー外をクリックしたら閉じる
+    document.addEventListener("click", function(event) {
+        if (!menuContainer.contains(event.target)) {
+            menuBar.style.display = "none";
+        }
     });
 });
