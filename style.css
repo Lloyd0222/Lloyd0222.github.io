@@ -5,12 +5,14 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   line-height: 1.8;
-  background: url('images/TOP_Japan.png') no-repeat center center fixed;
-  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  background-image: url('images/TOP_Japan.png'), linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 80%;
   color: #333;
-  text-align: center;
-  background-size: 80% 80%;
 }
+
+/* メニュー */
 .menu-container {
   position: fixed;
   top: 10px;
@@ -47,7 +49,7 @@ body {
 }
 
 .menu-bar a {
-padding: 12px;
+  padding: 12px;
   text-decoration: none;
   color: #007BFF;
   display: block;
@@ -60,19 +62,26 @@ padding: 12px;
   background: #007BFF;
   color: white;
 }
+
+/* コンテンツボックス */
 .container {
   background: rgba(255, 255, 255, 0.8);
-  padding: 20px;
-  margin: 50px auto;
-  width: 80%;
+  padding: 30px;
+  margin: 80px auto;
+  width: 85%;
+  max-width: 900px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* リンクボタン */
 .links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
+
 .links a {
   text-decoration: none;
   background: #007BFF;
@@ -81,11 +90,14 @@ padding: 12px;
   border-radius: 5px;
   font-size: 18px;
 }
+
+/* 言語切替 */
 .language-switch {
   position: absolute;
   top: 10px;
   right: 10px;
 }
+
 /* 見出しデザイン */
 h1 {
   font-size: 32px;
@@ -100,6 +112,17 @@ h2 {
   display: inline-block;
   padding-bottom: 5px;
   margin-bottom: 15px;
+}
+
+/* セクション */
+.content section {
+  background: white;
+  padding: 25px;
+  margin: 30px auto;
+  width: 85%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* フッター */
