@@ -5,12 +5,16 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   line-height: 1.8;
-  background: linear-gradient(to bottom, #f8f9fa, #e9ecef), 
-              url('images/TOP_Japan.png') no-repeat center center fixed;
+  background-color: #f8f9fa; /* 予備の背景色 */
+  background-image: url('images/TOP_Japan.png'), linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
-  position: relative;
   color: #333;
+  position: relative;
 }
+
 
 /* メニュー */
 .menu-container {
