@@ -8,6 +8,7 @@ body {
   background: linear-gradient(to bottom, #f8f9fa, #e9ecef), 
               url('images/TOP_Japan.png') no-repeat center center fixed;
   background-size: cover;
+  position: relative;
   color: #333;
 }
 
