@@ -5,10 +5,9 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
   line-height: 1.8;
-  background-image: url('images/TOP_Japan.png'), linear-gradient(to bottom, #f8f9fa, #e9ecef);
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: 80%;
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef), 
+              url('images/TOP_Japan.png') no-repeat center center fixed;
+  background-size: cover;
   color: #333;
 }
 
