@@ -117,33 +117,6 @@ h2 {
   margin-bottom: 15px;
 }
 
-h3 {
-  font-size: 26px;
-  color: #0056b3;
-  border-bottom: 3px solid #007BFF;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-}
-
-h4 {
-  font-size: 26px;
-  color: #0056b3;
-  border-bottom: 3px solid #007BFF;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-}
-
-h5 {
-  font-size: 26px;
-  color: #0056b3;
-  border-bottom: 3px solid #007BFF;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-}
-
 /* セクション */
 .content section {
   background: white;
